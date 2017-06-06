@@ -5,8 +5,6 @@ echo $1 > params.json
 # Extract a value. Could also just pass the JSON to PHP
 name=`cat params.json | jq -r '.name'`
 
-echo `ls -Flat`
-
 # Execute the script
 php phpinfo.php $name > result.html
 

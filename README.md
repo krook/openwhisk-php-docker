@@ -12,3 +12,6 @@ A [wrapper file is used to invoke the PHP CLI](dockerSkeleton/phpwrapper.sh) and
 
 ## Uninstall
 * Run `./deploy.sh --uninstall`
+
+# License
+[Apache 2.0](LICENSE.txt)
